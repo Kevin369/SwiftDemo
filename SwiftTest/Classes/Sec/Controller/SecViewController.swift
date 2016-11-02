@@ -11,6 +11,8 @@ import SDWebImage
 class SecViewController: UIViewController,UIScrollViewDelegate,UITableViewDataSource,UITableViewDelegate {
     var image = UIImageView()
     var heardView = UIScrollView()
+    var tabView:TabView?
+    
     let tabNameArray = ["潘金莲","西门庆","武大郎","武松","沉鱼","落雁","嘿嘿嘿"]
     //顶部视图左右滑动手势
     var leftSwipeGestureRecognizer:UISwipeGestureRecognizer?
@@ -40,7 +42,7 @@ class SecViewController: UIViewController,UIScrollViewDelegate,UITableViewDataSo
         heardView.showsHorizontalScrollIndicator = false
         self.view.addSubview(heardView)
         let tabBtnWidth:CGFloat = 70
-        var marginX:CGFloat = SCREEN_W*0.5 - 35
+        var marginX:CGFloat = 1
             for i in 0 ..< tabNameArray.count {
         
                 let tabBtn = UIButton(type: .System)

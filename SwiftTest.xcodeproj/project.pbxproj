@@ -35,6 +35,7 @@
 		88ABE2F41DA8BBE300ABBB9B /* ThirdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ABE2F21DA8BBE300ABBB9B /* ThirdTableViewCell.swift */; };
 		88ABE2F51DA8BBE300ABBB9B /* ThirdTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88ABE2F31DA8BBE300ABBB9B /* ThirdTableViewCell.xib */; };
 		88D4BA581DAF6D650016F582 /* HTTPRequse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D4BA571DAF6D650016F582 /* HTTPRequse.swift */; };
+		88E5E4911DC9873C00FB4BA4 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E5E4901DC9873C00FB4BA4 /* TabView.swift */; };
 		88EFAD371DADDBF700BD859B /* NetTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EFAD361DADDBF700BD859B /* NetTools.swift */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +90,7 @@
 		88ABE2F21DA8BBE300ABBB9B /* ThirdTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdTableViewCell.swift; sourceTree = "<group>"; };
 		88ABE2F31DA8BBE300ABBB9B /* ThirdTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdTableViewCell.xib; sourceTree = "<group>"; };
 		88D4BA571DAF6D650016F582 /* HTTPRequse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequse.swift; sourceTree = "<group>"; };
+		88E5E4901DC9873C00FB4BA4 /* TabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		88EFAD361DADDBF700BD859B /* NetTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetTools.swift; sourceTree = "<group>"; };
 		999FC2A4B8123713B0414732 /* Pods-SwiftTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTest/Pods-SwiftTest.debug.xcconfig"; sourceTree = "<group>"; };
 		D5B912BB2677DD43895CA7B5 /* Pods-SwiftTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTest/Pods-SwiftTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -257,6 +259,7 @@
 			children = (
 				881DE2721D9E306100BC83CB /* 333.jpg */,
 				88490DFB1D9A44BC000DA929 /* SecViewController.swift */,
+				88E5E4901DC9873C00FB4BA4 /* TabView.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -573,6 +576,7 @@
 				88490E031D9A44BC000DA929 /* HomeViewController.swift in Sources */,
 				88ABE2EF1DA888EF00ABBB9B /* AddressModel.swift in Sources */,
 				88490E0B1D9A44BC000DA929 /* ThirdViewController.swift in Sources */,
+				88E5E4911DC9873C00FB4BA4 /* TabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -730,7 +734,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ihaveu.SwiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "df389061-dbf6-48f9-b355-291077b8d425";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ihaveuyouzhong/Desktop/SwiftTest/SwiftTest/SwiftTest-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ihaveuyouzhong/Desktop/SwiftDemo/SwiftTest/SwiftTest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 2.3;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -761,7 +765,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ihaveu.SwiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "df389061-dbf6-48f9-b355-291077b8d425";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ihaveuyouzhong/Desktop/SwiftTest/SwiftTest/SwiftTest-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ihaveuyouzhong/Desktop/SwiftDemo/SwiftTest/SwiftTest-Bridging-Header.h";
 				SWIFT_VERSION = 2.3;
 				USER_HEADER_SEARCH_PATHS = "";
 			};

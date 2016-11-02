@@ -8,12 +8,19 @@
 
 import UIKit
 
-class HomeNextViewController: UIViewController {
+class HomeNextViewController: UIViewController,tabClickDelegate {
     var name: String?
     var closure:(()->())?
+    var tabView:TabView?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = RGBA(100, G: 100, B: 100, A: 1)
+//        self.view.backgroundColor = RGBA(100, G: 100, B: 100, A: 1)
+        self.view.backgroundColor = UIColor.whiteColor()
+        self.tabView = TabView.init(frame: CGRectMake(0, 70, SCREEN_W, 50), array: ["111111","22222","33333","44444","5555","66666"])
+        self.tabView?.delegate = self
+        self.tabView?.backgroundColor = UIColor.redColor()
+        self.view.addSubview(self.tabView!)
         let lable = UILabel()
         lable.textColor = UIColor.redColor()
         lable.frame = CGRectMake(100, 100, 100, 100)
@@ -21,6 +28,10 @@ class HomeNextViewController: UIViewController {
         self.view.addSubview(lable)
         
         // Do any additional setup after loading the view.
+    }
+    
+    func btnClick() {
+        print("啊啊啊啊啊啊啊啊啊啊啊啊")
     }
 
     override func didReceiveMemoryWarning() {
