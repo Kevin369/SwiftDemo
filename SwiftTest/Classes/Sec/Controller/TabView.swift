@@ -32,7 +32,6 @@ class TabView: UIView,UIScrollViewDelegate {
         self.init(frame:frame)
         self.array = array
 //        let image = UIImage(named: "bj")
-        
 //        self.imageView.image = image
 //        self.imageView.frame = CGRectMake(0, 0, SCREEN_W, 50)
 //        imageView.userInteractionEnabled = ture
@@ -59,8 +58,6 @@ class TabView: UIView,UIScrollViewDelegate {
         let height:CGFloat = 50
         
         for i in 0..<array.count {
-//            width+ =? width
-            
             let btn: UIButton! = UIButton(type: UIButtonType.Custom)
             btn.frame = CGRect(x: CGFloat(i) * width, y: 0, width: width, height: height)
             btn.backgroundColor = UIColor.blackColor()

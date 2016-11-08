@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>有一些字特别常用，但总是写得不好看，得注意结构</string>
+		<key>image</key>
+		<string>http://pic1.zhimg.com/05a55004e42ef9d778d502c96bc198a4.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>团购价太低，电影票价乱了套，影院可能要遭殃</string>
+		<key>image</key>
+		<string>http://pic3.zhimg.com/cd1240013a1c68392c81ba2df54ebb52.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>曾经我们认彼此是亲戚，后来研究了一下 DNA 发现并不是</string>
+		<key>image</key>
+		<string>http://pic1.zhimg.com/163af5e8c239e24654d26f3059cdccb4.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>赴朝留学生的生活体验，这是想象之外的朝鲜</string>
+		<key>image</key>
+		<string>http://pic4.zhimg.com/fe48f0349c20a50a5ad1491e569920d3.jpg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>煮粥、炒饭太老套，提供一种完美解决剩饭的花样吃法</string>
+		<key>image</key>
+		<string>http://pic2.zhimg.com/325aa7289be798e36518bdc6d18e3581.jpg</string>
+	</dict>
+</array>
+</plist>

@@ -8,31 +8,111 @@
 
 import UIKit
 
-class HomeNextViewController: UIViewController,tabClickDelegate {
+class HomeNextViewController: UIViewController,tabClickDelegate,UITableViewDataSource,UITableViewDelegate {
+    
+    var cyclePictureView: CyclePictureView!
+    var dataArray: NSArray? = {
+        let path = NSBundle.mainBundle().pathForResource("Image.plist", ofType: nil)!
+        var array = NSArray(contentsOfFile: path)
+        return array
+    }()
+    var imageURLArray: [String] = []
+    var imageDetailArray: [String] = []
+
+    
+    
     var name: String?
     var closure:(()->())?
     var tabView:TabView?
-    
+    var tableView = UITableView()
     override func viewDidLoad() {
         super.viewDidLoad()
 //        self.view.backgroundColor = RGBA(100, G: 100, B: 100, A: 1)
         self.view.backgroundColor = UIColor.whiteColor()
         self.tabView = TabView.init(frame: CGRectMake(0, 70, SCREEN_W, 50), array: ["111111","22222","33333","44444","5555","66666"])
         self.tabView?.delegate = self
-        self.tabView?.backgroundColor = UIColor.redColor()
         self.view.addSubview(self.tabView!)
-        let lable = UILabel()
-        lable.textColor = UIColor.redColor()
-        lable.frame = CGRectMake(100, 100, 100, 100)
-        lable.text = name
-        self.view.addSubview(lable)
+//        let lable = UILabel()
+//        lable.textColor = UIColor.redColor()
+//        lable.frame = CGRectMake(100, 100, 100, 100)
+//        lable.text = name
+//        self.view.addSubview(lable)
         
-        // Do any additional setup after loading the view.
+        
+        self.tableView = UITableView(frame: CGRectMake(0, 120, SCREEN_W, SCREEN_H-170))
+        self.tableView.delegate = self
+        tableView.dataSource = self
+        //        tableView.backgroundColor = RGBA(100, G: 140, B: 211, A: 1)
+        
+        self.view.addSubview(tableView)
+        tableView.registerNib(UINib.init(nibName: "MyTableViewCell", bundle: nil), forCellReuseIdentifier: "mycell")
+
+        
+        for i in 0..<dataArray!.count {
+            imageURLArray.append(dataArray![i]["image"] as! String)
+//            imageDetailArray.append(dataArray![i]["title"] as! String)
+        }
+        
+        let cyclePictureView = CyclePictureView(frame: CGRectMake(0, 100, self.view.frame.width, 200), imageURLArray: nil)
+        cyclePictureView.backgroundColor = UIColor.redColor()
+        cyclePictureView.imageURLArray = imageURLArray
+//        cyclePictureView.imageDetailArray = imageDetailArray
+        cyclePictureView.timeInterval = 3
+        self.tableView.tableHeaderView = cyclePictureView
+
+        
     }
+    
+    //设置头视图的View
+//    func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+//        let view=UIView()
+//        view.backgroundColor=UIColor.whi()
+//        let textF=UITextField(frame: CGRectMake(10, 5, 120, 20))
+//        textF.text="测试"
+//        view.addSubview(textF)
+//        return view  
+//    }
+    
+//    func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+//        return 40.0
+//    }
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return 80
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 6
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
+        let cell: MyTableViewCell = tableView.dequeueReusableCellWithIdentifier("mycell", forIndexPath: indexPath) as! MyTableViewCell
+        
+//        cell.nameLable?.text = arr[indexPath.row]
+        
+        return cell
+        
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+//        let secondVC:HomeNextViewController = HomeNextViewController()
+////        secondVC.name = arr[indexPath.row]
+//        self.navigationController?.pushViewController(secondVC,animated:true)
+    }
+
     
     func btnClick() {
         print("啊啊啊啊啊啊啊啊啊啊啊啊")
     }
+    
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

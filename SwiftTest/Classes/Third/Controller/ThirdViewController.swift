@@ -100,6 +100,23 @@ class ThirdViewController: UIViewController,UITableViewDataSource,UITableViewDel
         //设置超时
         let config = NSURLSessionConfiguration.defaultSessionConfiguration()
         config.timeoutIntervalForRequest = 5
+//        Alamofire.request(.PUT, <#T##URLString: URLStringConvertible##URLStringConvertible#>, parameters: <#T##[String : AnyObject]?#>, encoding: <#T##ParameterEncoding#>, headers: <#T##[String : String]?#>)
+        
+        
+        Network.get(urlStr, params: ["pageSize": "15","pageIndex":self.page]) { (data, response, error) in
+            print(data)
+            let string = NSString(data: data, encoding: NSUTF8StringEncoding) as! String
+            print(string)
+//            var json: AnyObject? = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.allZeros, error:nil)
+            
+            
+//            let json: AnyObject? = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers)
+//            print(json)
+            
+            
+        }
+        
+        
         Alamofire.request(.GET, urlStr,parameters: ["pageSize": "15","pageIndex":self.page]).responseJSON { (response) in
             switch response.result {
             case .Success:
@@ -109,7 +126,7 @@ class ThirdViewController: UIViewController,UITableViewDataSource,UITableViewDel
                         SVProgressHUD.dismiss()
                     })
                 }
-                 print(response)
+//                 print(response)
 
                 //把得到的JSON数据转为字典
                 if let j = response.result.value as? NSDictionary{

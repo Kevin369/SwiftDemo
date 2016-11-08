@@ -8,11 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		7D3BE000A6BB6F5B0F8F5D07 /* Pods_SwiftTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA0DB3C9D1748985A469DA0 /* Pods_SwiftTest.framework */; };
-		881895361DB9B5BD00F2544E /* HearerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881895351DB9B5BD00F2544E /* HearerView.swift */; };
 		881DE26F1D9DFA4B00BC83CB /* HomeNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881DE26E1D9DFA4B00BC83CB /* HomeNextViewController.swift */; };
 		881DE2711D9E000200BC83CB /* Networktools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881DE2701D9E000200BC83CB /* Networktools.swift */; };
 		881DE2731D9E306100BC83CB /* 333.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881DE2721D9E306100BC83CB /* 333.jpg */; };
 		881DE2751D9E3C6700BC83CB /* LoginSucViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881DE2741D9E3C6700BC83CB /* LoginSucViewController.swift */; };
+		8833E3661DCC8C0000EB6A16 /* JHChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8833E34E1DCC8C0000EB6A16 /* JHChart.m */; };
+		8833E3671DCC8C0000EB6A16 /* JHColumnChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8833E3511DCC8C0000EB6A16 /* JHColumnChart.m */; };
+		8833E3681DCC8C0000EB6A16 /* JHLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8833E3531DCC8C0000EB6A16 /* JHLineChart.m */; };
+		8833E3691DCC8C0000EB6A16 /* JHPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8833E3551DCC8C0000EB6A16 /* JHPieChart.m */; };
+		8833E36A1DCC8C0000EB6A16 /* JHPieForeBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8833E3571DCC8C0000EB6A16 /* JHPieForeBGView.m */; };
+		8833E36B1DCC8C0000EB6A16 /* JHPieItemsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8833E3591DCC8C0000EB6A16 /* JHPieItemsView.m */; };
+		8833E36C1DCC8C0000EB6A16 /* JHRadarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8833E35B1DCC8C0000EB6A16 /* JHRadarChart.m */; };
+		8833E36D1DCC8C0000EB6A16 /* JHRingChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8833E35D1DCC8C0000EB6A16 /* JHRingChart.m */; };
+		8833E36E1DCC8C0000EB6A16 /* JHShowInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8833E35F1DCC8C0000EB6A16 /* JHShowInfoView.m */; };
+		8833E36F1DCC8C0000EB6A16 /* JHTableChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8833E3611DCC8C0000EB6A16 /* JHTableChart.m */; };
+		8833E3701DCC8C0000EB6A16 /* JHTableDataRowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8833E3631DCC8C0000EB6A16 /* JHTableDataRowModel.m */; };
+		8833E3711DCC8C0000EB6A16 /* JHWaveChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8833E3651DCC8C0000EB6A16 /* JHWaveChart.m */; };
+		8833E3731DCC8E5D00EB6A16 /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833E3721DCC8E5D00EB6A16 /* ChartsViewController.swift */; };
 		88490E031D9A44BC000DA929 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88490DEA1D9A44BC000DA929 /* HomeViewController.swift */; };
 		88490E041D9A44BC000DA929 /* MainRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88490DEE1D9A44BC000DA929 /* MainRootViewController.swift */; };
 		88490E051D9A44BC000DA929 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88490DF11D9A44BC000DA929 /* MyViewController.swift */; };
@@ -26,6 +38,11 @@
 		88536E5D1D9A120F00C63528 /* SwiftTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88536E5C1D9A120F00C63528 /* SwiftTestUITests.swift */; };
 		88713BAB1DB8BE0B0077D08F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88713BAA1DB8BE0B0077D08F /* LaunchScreen.storyboard */; };
 		887A413B1D9A470200A70246 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 887A413A1D9A470200A70246 /* Info.plist */; };
+		888E940C1DCAEC430083CB5D /* Image.plist in Resources */ = {isa = PBXBuildFile; fileRef = 888E940B1DCAEC430083CB5D /* Image.plist */; };
+		888E94101DCAEC9B0083CB5D /* CyclePictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888E940D1DCAEC9B0083CB5D /* CyclePictureView.swift */; };
+		888E94111DCAEC9B0083CB5D /* CyclePictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888E940E1DCAEC9B0083CB5D /* CyclePictureCell.swift */; };
+		888E94121DCAEC9B0083CB5D /* AuxiliaryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888E940F1DCAEC9B0083CB5D /* AuxiliaryModels.swift */; };
+		888E94141DCB03EA0083CB5D /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888E94131DCB03EA0083CB5D /* CollectionTableViewCell.swift */; };
 		88A41E3A1D9A4A1F00D8B708 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A41E391D9A4A1F00D8B708 /* AppDelegate.swift */; };
 		88A41E401D9A517F00D8B708 /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A41E3F1D9A517F00D8B708 /* MyModel.swift */; };
 		88A41E4A1D9A53AD00D8B708 /* 222.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88A41E491D9A53AD00D8B708 /* 222.jpg */; };
@@ -35,6 +52,7 @@
 		88ABE2F41DA8BBE300ABBB9B /* ThirdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ABE2F21DA8BBE300ABBB9B /* ThirdTableViewCell.swift */; };
 		88ABE2F51DA8BBE300ABBB9B /* ThirdTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88ABE2F31DA8BBE300ABBB9B /* ThirdTableViewCell.xib */; };
 		88D4BA581DAF6D650016F582 /* HTTPRequse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D4BA571DAF6D650016F582 /* HTTPRequse.swift */; };
+		88E3C16B1DD17D5F0062DCEF /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E3C16A1DD17D5F0062DCEF /* Network.swift */; };
 		88E5E4911DC9873C00FB4BA4 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E5E4901DC9873C00FB4BA4 /* TabView.swift */; };
 		88EFAD371DADDBF700BD859B /* NetTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EFAD361DADDBF700BD859B /* NetTools.swift */; };
 /* End PBXBuildFile section */
@@ -58,11 +76,36 @@
 
 /* Begin PBXFileReference section */
 		6EA0DB3C9D1748985A469DA0 /* Pods_SwiftTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		881895351DB9B5BD00F2544E /* HearerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HearerView.swift; sourceTree = "<group>"; };
 		881DE26E1D9DFA4B00BC83CB /* HomeNextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeNextViewController.swift; sourceTree = "<group>"; };
 		881DE2701D9E000200BC83CB /* Networktools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networktools.swift; sourceTree = "<group>"; };
 		881DE2721D9E306100BC83CB /* 333.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 333.jpg; sourceTree = "<group>"; };
 		881DE2741D9E3C6700BC83CB /* LoginSucViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginSucViewController.swift; sourceTree = "<group>"; };
+		8833E34D1DCC8C0000EB6A16 /* JHChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHChart.h; sourceTree = "<group>"; };
+		8833E34E1DCC8C0000EB6A16 /* JHChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHChart.m; sourceTree = "<group>"; };
+		8833E34F1DCC8C0000EB6A16 /* JHChartHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHChartHeader.h; sourceTree = "<group>"; };
+		8833E3501DCC8C0000EB6A16 /* JHColumnChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHColumnChart.h; sourceTree = "<group>"; };
+		8833E3511DCC8C0000EB6A16 /* JHColumnChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHColumnChart.m; sourceTree = "<group>"; };
+		8833E3521DCC8C0000EB6A16 /* JHLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLineChart.h; sourceTree = "<group>"; };
+		8833E3531DCC8C0000EB6A16 /* JHLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLineChart.m; sourceTree = "<group>"; };
+		8833E3541DCC8C0000EB6A16 /* JHPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPieChart.h; sourceTree = "<group>"; };
+		8833E3551DCC8C0000EB6A16 /* JHPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPieChart.m; sourceTree = "<group>"; };
+		8833E3561DCC8C0000EB6A16 /* JHPieForeBGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPieForeBGView.h; sourceTree = "<group>"; };
+		8833E3571DCC8C0000EB6A16 /* JHPieForeBGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPieForeBGView.m; sourceTree = "<group>"; };
+		8833E3581DCC8C0000EB6A16 /* JHPieItemsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPieItemsView.h; sourceTree = "<group>"; };
+		8833E3591DCC8C0000EB6A16 /* JHPieItemsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPieItemsView.m; sourceTree = "<group>"; };
+		8833E35A1DCC8C0000EB6A16 /* JHRadarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHRadarChart.h; sourceTree = "<group>"; };
+		8833E35B1DCC8C0000EB6A16 /* JHRadarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHRadarChart.m; sourceTree = "<group>"; };
+		8833E35C1DCC8C0000EB6A16 /* JHRingChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHRingChart.h; sourceTree = "<group>"; };
+		8833E35D1DCC8C0000EB6A16 /* JHRingChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHRingChart.m; sourceTree = "<group>"; };
+		8833E35E1DCC8C0000EB6A16 /* JHShowInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHShowInfoView.h; sourceTree = "<group>"; };
+		8833E35F1DCC8C0000EB6A16 /* JHShowInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHShowInfoView.m; sourceTree = "<group>"; };
+		8833E3601DCC8C0000EB6A16 /* JHTableChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTableChart.h; sourceTree = "<group>"; };
+		8833E3611DCC8C0000EB6A16 /* JHTableChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTableChart.m; sourceTree = "<group>"; };
+		8833E3621DCC8C0000EB6A16 /* JHTableDataRowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTableDataRowModel.h; sourceTree = "<group>"; };
+		8833E3631DCC8C0000EB6A16 /* JHTableDataRowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTableDataRowModel.m; sourceTree = "<group>"; };
+		8833E3641DCC8C0000EB6A16 /* JHWaveChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHWaveChart.h; sourceTree = "<group>"; };
+		8833E3651DCC8C0000EB6A16 /* JHWaveChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHWaveChart.m; sourceTree = "<group>"; };
+		8833E3721DCC8E5D00EB6A16 /* ChartsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
 		88490DEA1D9A44BC000DA929 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		88490DEE1D9A44BC000DA929 /* MainRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRootViewController.swift; sourceTree = "<group>"; };
 		88490DF11D9A44BC000DA929 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +124,11 @@
 		88536E5E1D9A120F00C63528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88713BAA1DB8BE0B0077D08F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		887A413A1D9A470200A70246 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		888E940B1DCAEC430083CB5D /* Image.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Image.plist; sourceTree = "<group>"; };
+		888E940D1DCAEC9B0083CB5D /* CyclePictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CyclePictureView.swift; sourceTree = "<group>"; };
+		888E940E1DCAEC9B0083CB5D /* CyclePictureCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CyclePictureCell.swift; sourceTree = "<group>"; };
+		888E940F1DCAEC9B0083CB5D /* AuxiliaryModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuxiliaryModels.swift; sourceTree = "<group>"; };
+		888E94131DCB03EA0083CB5D /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
 		88A41E391D9A4A1F00D8B708 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88A41E3F1D9A517F00D8B708 /* MyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyModel.swift; sourceTree = "<group>"; };
 		88A41E491D9A53AD00D8B708 /* 222.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222.jpg; sourceTree = "<group>"; };
@@ -90,6 +138,7 @@
 		88ABE2F21DA8BBE300ABBB9B /* ThirdTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdTableViewCell.swift; sourceTree = "<group>"; };
 		88ABE2F31DA8BBE300ABBB9B /* ThirdTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdTableViewCell.xib; sourceTree = "<group>"; };
 		88D4BA571DAF6D650016F582 /* HTTPRequse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequse.swift; sourceTree = "<group>"; };
+		88E3C16A1DD17D5F0062DCEF /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		88E5E4901DC9873C00FB4BA4 /* TabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		88EFAD361DADDBF700BD859B /* NetTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetTools.swift; sourceTree = "<group>"; };
 		999FC2A4B8123713B0414732 /* Pods-SwiftTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTest/Pods-SwiftTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -140,6 +189,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8833E34C1DCC8C0000EB6A16 /* JHChart */ = {
+			isa = PBXGroup;
+			children = (
+				8833E34D1DCC8C0000EB6A16 /* JHChart.h */,
+				8833E34E1DCC8C0000EB6A16 /* JHChart.m */,
+				8833E34F1DCC8C0000EB6A16 /* JHChartHeader.h */,
+				8833E3501DCC8C0000EB6A16 /* JHColumnChart.h */,
+				8833E3511DCC8C0000EB6A16 /* JHColumnChart.m */,
+				8833E3521DCC8C0000EB6A16 /* JHLineChart.h */,
+				8833E3531DCC8C0000EB6A16 /* JHLineChart.m */,
+				8833E3541DCC8C0000EB6A16 /* JHPieChart.h */,
+				8833E3551DCC8C0000EB6A16 /* JHPieChart.m */,
+				8833E3561DCC8C0000EB6A16 /* JHPieForeBGView.h */,
+				8833E3571DCC8C0000EB6A16 /* JHPieForeBGView.m */,
+				8833E3581DCC8C0000EB6A16 /* JHPieItemsView.h */,
+				8833E3591DCC8C0000EB6A16 /* JHPieItemsView.m */,
+				8833E35A1DCC8C0000EB6A16 /* JHRadarChart.h */,
+				8833E35B1DCC8C0000EB6A16 /* JHRadarChart.m */,
+				8833E35C1DCC8C0000EB6A16 /* JHRingChart.h */,
+				8833E35D1DCC8C0000EB6A16 /* JHRingChart.m */,
+				8833E35E1DCC8C0000EB6A16 /* JHShowInfoView.h */,
+				8833E35F1DCC8C0000EB6A16 /* JHShowInfoView.m */,
+				8833E3601DCC8C0000EB6A16 /* JHTableChart.h */,
+				8833E3611DCC8C0000EB6A16 /* JHTableChart.m */,
+				8833E3621DCC8C0000EB6A16 /* JHTableDataRowModel.h */,
+				8833E3631DCC8C0000EB6A16 /* JHTableDataRowModel.m */,
+				8833E3641DCC8C0000EB6A16 /* JHWaveChart.h */,
+				8833E3651DCC8C0000EB6A16 /* JHWaveChart.m */,
+			);
+			path = JHChart;
+			sourceTree = "<group>";
+		};
 		88490DE71D9A44BC000DA929 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,9 +247,10 @@
 		88490DE91D9A44BC000DA929 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8833E34C1DCC8C0000EB6A16 /* JHChart */,
 				88490DEA1D9A44BC000DA929 /* HomeViewController.swift */,
 				881DE26E1D9DFA4B00BC83CB /* HomeNextViewController.swift */,
-				881895351DB9B5BD00F2544E /* HearerView.swift */,
+				8833E3721DCC8E5D00EB6A16 /* ChartsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -184,9 +266,14 @@
 		88490DEC1D9A44BC000DA929 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				888E940D1DCAEC9B0083CB5D /* CyclePictureView.swift */,
+				888E940E1DCAEC9B0083CB5D /* CyclePictureCell.swift */,
+				888E940F1DCAEC9B0083CB5D /* AuxiliaryModels.swift */,
+				888E940B1DCAEC430083CB5D /* Image.plist */,
 				88A41E491D9A53AD00D8B708 /* 222.jpg */,
 				88A41E4B1D9A5C4800D8B708 /* MyTableViewCell.swift */,
 				88A41E4C1D9A5C4800D8B708 /* MyTableViewCell.xib */,
+				888E94131DCB03EA0083CB5D /* CollectionTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -292,6 +379,7 @@
 			isa = PBXGroup;
 			children = (
 				88490E001D9A44BC000DA929 /* ThirdViewController.swift */,
+				88E3C16A1DD17D5F0062DCEF /* Network.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -478,6 +566,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888E940C1DCAEC430083CB5D /* Image.plist in Resources */,
 				88A41E4A1D9A53AD00D8B708 /* 222.jpg in Resources */,
 				88713BAB1DB8BE0B0077D08F /* LaunchScreen.storyboard in Resources */,
 				88A41E4E1D9A5C4800D8B708 /* MyTableViewCell.xib in Resources */,
@@ -518,7 +607,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		C76C9E3727188C8DD98E0354 /* [CP] Copy Pods Resources */ = {
@@ -559,23 +648,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				88A41E3A1D9A4A1F00D8B708 /* AppDelegate.swift in Sources */,
+				8833E3731DCC8E5D00EB6A16 /* ChartsViewController.swift in Sources */,
 				88EFAD371DADDBF700BD859B /* NetTools.swift in Sources */,
+				888E94141DCB03EA0083CB5D /* CollectionTableViewCell.swift in Sources */,
+				8833E3671DCC8C0000EB6A16 /* JHColumnChart.m in Sources */,
 				88A41E401D9A517F00D8B708 /* MyModel.swift in Sources */,
+				8833E36E1DCC8C0000EB6A16 /* JHShowInfoView.m in Sources */,
+				888E94111DCAEC9B0083CB5D /* CyclePictureCell.swift in Sources */,
 				88ABE2F41DA8BBE300ABBB9B /* ThirdTableViewCell.swift in Sources */,
+				8833E36D1DCC8C0000EB6A16 /* JHRingChart.m in Sources */,
+				8833E36C1DCC8C0000EB6A16 /* JHRadarChart.m in Sources */,
 				88490E071D9A44BC000DA929 /* Header.swift in Sources */,
 				881DE2751D9E3C6700BC83CB /* LoginSucViewController.swift in Sources */,
+				8833E3661DCC8C0000EB6A16 /* JHChart.m in Sources */,
+				88E3C16B1DD17D5F0062DCEF /* Network.swift in Sources */,
+				8833E3701DCC8C0000EB6A16 /* JHTableDataRowModel.m in Sources */,
 				88A41E4D1D9A5C4800D8B708 /* MyTableViewCell.swift in Sources */,
 				881DE2711D9E000200BC83CB /* Networktools.swift in Sources */,
+				8833E3691DCC8C0000EB6A16 /* JHPieChart.m in Sources */,
 				88490E041D9A44BC000DA929 /* MainRootViewController.swift in Sources */,
+				8833E36B1DCC8C0000EB6A16 /* JHPieItemsView.m in Sources */,
 				88D4BA581DAF6D650016F582 /* HTTPRequse.swift in Sources */,
 				88490E0A1D9A44BC000DA929 /* SecViewController.swift in Sources */,
-				881895361DB9B5BD00F2544E /* HearerView.swift in Sources */,
+				8833E36A1DCC8C0000EB6A16 /* JHPieForeBGView.m in Sources */,
 				881DE26F1D9DFA4B00BC83CB /* HomeNextViewController.swift in Sources */,
 				88490E091D9A44BC000DA929 /* UIButton+Extention.swift in Sources */,
 				88490E051D9A44BC000DA929 /* MyViewController.swift in Sources */,
+				8833E36F1DCC8C0000EB6A16 /* JHTableChart.m in Sources */,
 				88490E031D9A44BC000DA929 /* HomeViewController.swift in Sources */,
+				888E94101DCAEC9B0083CB5D /* CyclePictureView.swift in Sources */,
+				8833E3711DCC8C0000EB6A16 /* JHWaveChart.m in Sources */,
 				88ABE2EF1DA888EF00ABBB9B /* AddressModel.swift in Sources */,
 				88490E0B1D9A44BC000DA929 /* ThirdViewController.swift in Sources */,
+				888E94121DCAEC9B0083CB5D /* AuxiliaryModels.swift in Sources */,
+				8833E3681DCC8C0000EB6A16 /* JHLineChart.m in Sources */,
 				88E5E4911DC9873C00FB4BA4 /* TabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

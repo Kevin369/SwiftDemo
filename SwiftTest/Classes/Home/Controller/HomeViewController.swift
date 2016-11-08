@@ -134,9 +134,17 @@ class HomeViewController: UIViewController,UITableViewDataSource,UITableViewDele
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
-        let secondVC:HomeNextViewController = HomeNextViewController()
-        secondVC.name = arr[indexPath.row]
-        self.navigationController?.pushViewController(secondVC,animated:true)
+        if indexPath.row == 1 {//ChartsViewController
+            let secondVC:ChartsViewController = ChartsViewController()
+//            secondVC.name = arr[indexPath.row]
+            self.navigationController?.pushViewController(secondVC,animated:true)
+
+        }else{
+            let secondVC:HomeNextViewController = HomeNextViewController()
+            secondVC.name = arr[indexPath.row]
+            self.navigationController?.pushViewController(secondVC,animated:true)
+        }
+       
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

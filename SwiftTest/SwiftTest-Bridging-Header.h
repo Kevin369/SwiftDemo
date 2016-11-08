@@ -10,4 +10,5 @@
 //#import "MJRefresh.h"
 //#import "SVProgressHUD"
 #import "AFNetworking/AFNetworking.h"
+#import "JHChartHeader.h"
 #endif /* Header_h */
